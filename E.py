@@ -13,7 +13,7 @@ if not 1<=K<=1000000000:
     print('Valor fora do intervalo permitido')
     exit()
         
-#recebe flores transformando em um vetor string3
+#recebe flores transformando em um vetor inteiro
 P = input().split(' ')
 for i in range(N):
     P[i] = int(P[i])
